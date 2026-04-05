@@ -25,7 +25,14 @@ python video_to_audio.py <input_folder> [output_folder]
 
 ### Transcribe audio/video to text
 ```bash
-python process.py <input_folder>
+python process.py <input_folder> [-l <language>]
+```
+
+The default language is English (`en`). Examples:
+```bash
+python process.py ./videos -l en   # English
+python process.py ./videos -l pt   # Portuguese
+python process.py ./videos -l es   # Spanish
 ```
 
 Transcripts are saved in a `transcript/` subfolder next to each media file.
