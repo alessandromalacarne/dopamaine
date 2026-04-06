@@ -1,6 +1,6 @@
 # dopamaine
 
-Audio/video transcription tool using faster-whisper.
+Audio/video transcription tool using faster-whisper. Works very good on my GTX 1650 Mobile (4GB VRAM).
 
 ## Requirements
 
